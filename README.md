@@ -47,22 +47,16 @@ NumPy
 📂 Project Structure
 mask-detection/
 │
-├── train_model.py          # Train CNN mask classifier
-├── detect_mask_video.py    # Real-time webcam detection
+├── model.ipynb          # Train CNN mask classifier
+├──Live_Detect.py
+├── detect_mask.py    # Real-time webcam detection
 ├── mask_detector.h5        # Trained CNN model
 ├── yolov8n-face.pt         # YOLOv8 face detection model
 ├── dataset/
 │   ├── with_mask/
 │   └── without_mask/
 └── README.md
-📦 Installation
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/mask-detection.git
-cd mask-detection
-2️⃣ Install Dependencies
-pip install tensorflow opencv-python ultralytics numpy
-▶️ Run Real-Time Mask Detection
-python detect_mask_video.py
+
 
 The webcam will start and detect mask / no mask in real time.
 
