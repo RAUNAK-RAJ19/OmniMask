@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from ultralytics import YOLO
 
 
-PROC_WIDTH, PROC_HEIGHT = 320, 240 # Smaller = much faster
+PROC_WIDTH, PROC_HEIGHT = 320, 240
 FRAME_SKIP = 3 
 TARGET_FPS = 60
 
